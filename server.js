@@ -44,7 +44,7 @@ app.get('/callback', async (req, res) => {
     accessToken = data.access_token;
     refreshToken = data.refresh_token;
 
-    res.send('<h1>Authenticated! You can close this tab and open Roblox Studio now.</h1>');
+    res.send('<h1>Authenticated! You may close this tab now.</h1>');
 });
 
 // 3. ROUTE: The endpoint Roblox will call
