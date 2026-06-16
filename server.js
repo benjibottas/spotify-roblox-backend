@@ -9,7 +9,7 @@ let refreshToken = "";
 // Paste your Spotify credentials here
 const CLIENT_ID = 'ee8a0fad6e434cbcaf2fbedf1027003f';
 const CLIENT_SECRET = '5e3de984620a4b0691955eb807f0a0d4'; // Put your real hidden secret back here!
-const REDIRECT_URI = 'http://127.0.0.1:3000/callback';
+const REDIRECT_URI = 'https://roblox-spotify-service.onrender.com/callback'; // Yes I do use render as this is a hobby.
 
 // 1. ROUTE: Link your Spotify account by visiting this in your browser
 app.get('/login', (req, res) => {
